@@ -7,38 +7,65 @@ The Movie Database provides movie data for public use. Given that major films co
 The Movie Database provides two datasets: tmdb_5000_movies.csv (Movie credits data):
 
 budget
+
 genres
+
 homepage
+
 id
+
 keywords
+
 original_language
+
 original_title
+
 overview
+
 popularity
+
 production_companies
+
 production_countries
+
 release_date
+
 revenue
+
 runtime
+
 spoken_languages
+
 status
+
 tagline
+
 title
+
 vote_average
+
 vote_count
+
 
 tmdb_5000_credits.csv:
 
 movie_id
+
+
 title
+
 cast
+
 crew We will merge the two datasets in order to get all the informations about the actors and the directors of their relative movie.
 
 The libraries used
 
 NumPy
+
 pandas
+
 Sklearn / scikit-learn
+
 Matplotlib (for data visualization)
 
 A summary of the results:
